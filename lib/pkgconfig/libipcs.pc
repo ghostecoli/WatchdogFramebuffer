@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr/bin
+
+# here write your lib path!!!
+libdir=/usr/local/lib/
+includedir=/root/workspace/embeded_learn/test_temp/feed_dog/inc
+
+Name: libipcs
+Description: this is my first software packages
+Version: 1.0.0
+Cflags: -I${includedir} -g3 -Wall
+Libs: -L${libdir} -lipcs
